@@ -33,7 +33,9 @@ class PolyGUIX():
         :param ctk_bg_color: CustomTkinter window background color (hex color string).
         :param parent: Parent window (None for root window, Toplevel for additional windows).
         """
-        
+
+        # all of that is just a test
+        """
         # Ensure the always_on_top parameter is valid
         valid_states = ["normal", "iconic", "zoomed"]
         if always_on_top not in valid_states:
@@ -93,7 +95,7 @@ class PolyGUIX():
         self.ctk_theme = ctk_theme
         self.ctk_appearance_mode = ctk_appearance_mode
         self.ctk_bg_color = ctk_bg_color
-        
+        """
     def run(self):
         """Run the main event loop."""
         self.app.mainloop()
